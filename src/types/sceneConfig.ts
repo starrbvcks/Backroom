@@ -1,0 +1,21 @@
+export type SceneConfig = {
+  corridorLength: number;
+  roomRepetition: number;
+  fogDensity: number;
+  lightIntensity: number;
+  lightFlicker: number;
+  warmth: number;
+  symmetry: number;
+  imperfection: number;
+  chairRotationIntensity: number;
+  chairReactionDelay: number;
+  exitDistance: number;
+  exitBrightness: number;
+  exitWarmth: number;
+  ambientNoiseIntensity: number;
+  voiceLayerIntensity: number;
+  humIntensity: number;
+  dominantMessage: string;
+  roomTitle: string;
+  portrait: string;
+};
